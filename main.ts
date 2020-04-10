@@ -25,21 +25,21 @@ namespace myTiles {
 `
     //% blockIdentity=images._tile
     export const tile1 = img`
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 e 7 e 7 7 7 7 7 7 7 
-e e 7 e e e e 7 7 7 e e 7 e 7 e 
+7 7 7 7 7 7 7 7 7 7 5 7 7 7 7 7 
+7 7 7 7 5 7 e 7 e 7 7 7 7 7 7 7 
+e e 7 e e e e 7 7 7 e e 6 e 7 e 
 e e e 7 e e e 7 e e e e 7 e e e 
 e e e e e e e e e e e e e e e e 
-e 7 e e e e e e e e e e e e e e 
+e 7 e e e e e e e b e e e e e e 
 e e e e e e e e e e e e e 7 e e 
 e e e e e e e e 7 e e e e e e e 
 e e e e d e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e d e e e 
-e e e e e e e e e e e e e e e e 
-e c e e e e e e e e e e e e e e 
-c . e e e e e e c . e e e e e c 
-. . . . e c . . . . . c e e e . 
+c e e e e e e e e e e e e e e e 
+c c c c e e e e c c c c c e e e 
+f . f f c c f f c . f c c c c c 
+. . . . f c . . . . . f f f c . 
 . . . . . . . . . . . . . . . . 
 `
     //% blockIdentity=images._tile
@@ -63,22 +63,22 @@ c . e e e e e e c . e e e e e c
 `
     //% blockIdentity=images._tile
     export const tile3 = img`
-2 4 4 2 . 2 . . 2 . 2 . 3 . . . 
-. . 2 . . . 5 2 . . 4 . . . . . 
-. 2 . 5 2 4 2 4 . 2 . . 5 2 . . 
-. 3 5 5 4 2 2 . 2 . . 4 2 . 2 . 
-. . 5 2 2 . 5 . . . 4 4 . . 5 . 
-. 4 4 2 . 2 2 . 5 4 4 . . 2 . 2 
-5 4 2 2 4 4 4 4 4 2 2 . . 5 4 2 
-2 2 . 2 2 2 2 4 2 4 5 4 5 4 4 2 
-2 2 4 5 2 2 4 2 4 4 2 2 2 2 2 2 
-2 2 4 4 4 2 2 2 4 2 2 4 2 . 2 2 
-2 4 4 2 2 . 4 4 2 2 2 2 2 2 2 2 
-2 4 4 4 4 4 4 2 2 2 2 2 2 2 2 2 
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. 2 . 5 2 5 2 4 . 5 . . 5 2 . . 
+. 3 5 5 4 2 2 . 2 . . 4 2 . 5 . 
+5 2 5 2 2 2 5 2 4 4 5 4 2 2 5 2 
+2 4 4 2 4 2 2 2 5 4 4 4 2 2 2 2 
+5 4 2 2 4 4 4 4 4 2 2 2 2 5 4 2 
+2 2 4 2 2 2 2 4 2 4 5 4 5 4 4 2 
 2 2 2 2 2 2 2 8 2 c 2 2 2 2 2 2 
 2 2 c 2 c 2 c c c c c 2 2 c 2 2 
-c c c c c c c c c c c c c c c c 
+c c c c c c c f f f c c c c c c 
+f f f f f f f f f f f f f f f f 
 `
     //% blockIdentity=images._tile
     export const tile4 = img`
@@ -141,19 +141,19 @@ c c c c c c c c c c c c c c c c
     export const tile7 = img`
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
-e e e e e e e e e e e e d e e e 
+e e b e e e e e e e e e d e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e d e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
-e e e e e e e e e e e e e e e e 
+e e e e e e e e e e e c e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e d e e e e e e e e e d e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
-e e e e e e e e e e e e e e e e 
+e e e e e e e b e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 `
     //% blockIdentity=images._tile
@@ -161,37 +161,37 @@ e e e e e e e e e e e e e e e e
 e e e e e e e e e e e e e e e e 
 e e d e e e e e e e e d e e e e 
 e e e e e e e e e e e e e e e e 
-e e e e e e e e e e e e e e e e 
+e e e b e e e e e e e e e e e e 
 e e e e e e e e d e e e e e e e 
 e e e e e e e e e e e e e e e e 
-e e e e e e e e e e e e e e e e 
+e e e e e e e e e e b e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e d e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e d e e e 
-e e e e e e e e e e e e e e e e 
-e c e e e e e e e e e e e e e e 
-c . e e e e e e c . e e e e e c 
-. . . . e c . . . . . c e e e . 
+e c c e e e e e c c c c e e e e 
+c c c c c e e c c c c c e e c c 
+f . f f c c c f f . f c e e c c 
+. . . . f c . . . . . f f c c . 
 . . . . . . . . . . . . . . . . 
 `
     //% blockIdentity=images._tile
     export const tile10 = img`
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 5 7 7 7 7 7 7 7 7 7 7 7 7 
 7 7 7 7 7 7 e 7 e 7 7 7 7 7 7 7 
-e e 7 e e e e 7 7 7 e e 7 e 7 e 
+e e 7 e e e e 7 7 7 e e 5 e 7 e 
 e e e 7 e e e 7 e e e e 7 e e e 
 e e e e e e e e e e e e e e e e 
 e 7 e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e 7 e e 
 e e e e e e e e 7 e e e e e e e 
 e e e e d e e e e e e e e e e e 
-e e e e e e e e e e e e e e e e 
+e e e e e e e e e e c e e e e e 
 e e e e e e e e e e e e d e e e 
 e e e e e e e e e e e e e e e e 
 e e e e d e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
-e e e e e e e e e e d e e e e e 
+e e b e e e e e e e d e e e e e 
 e e e e e e e e e e e e e e e e 
 `
     //% blockIdentity=images._tile
@@ -218,6 +218,26 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Fireball, function (sprite, othe
     info.changeLifeBy(-2)
     otherSprite.destroy()
 })
+sprites.onCreated(SpriteKind.Flower, function (sprite) {
+    sprite.setImage(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . 3 a . . a 3 . . . . . . 
+. . . . a 3 2 2 3 a . . . . . . 
+. . 7 7 . a 3 3 a . . . . . . . 
+. . 7 7 7 . c c . 7 7 . . . . . 
+. . . 8 7 7 7 . 7 7 7 . . . . . 
+. . . 8 8 7 7 7 7 8 . . . . . . 
+. . . . . 8 7 7 8 . . . . . . . 
+. . . . . . 7 8 . . . . . . . . 
+`)
+})
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile3, function (sprite, location) {
     game.over(false, effects.melt)
 })
@@ -234,6 +254,185 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
         info.changeLifeBy(-1)
     }
 })
+sprites.onCreated(SpriteKind.Coin, function (sprite) {
+    sprite.setImage(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f f . . . . 
+. . . . f 5 5 5 5 5 5 5 f . . . 
+. . . f 5 5 4 4 4 4 5 5 5 f . . 
+. . f 5 5 5 5 5 5 5 5 5 5 5 f . 
+. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
+. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
+. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
+. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
+. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
+. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
+. . . f 5 5 4 4 5 5 5 5 5 f . . 
+. . . . f 5 5 5 5 5 5 5 f . . . 
+. . . . . f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`)
+    animation.runImageAnimation(
+    sprite,
+    [img`
+. . . . . . . . . . . . . . . . 
+. . . . f f f f f f f . . . . . 
+. . . f 5 5 5 5 5 5 5 f . . . . 
+. . f 5 4 4 4 4 4 5 5 5 f . . . 
+. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
+. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
+. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
+. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
+. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
+. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
+. f 5 5 5 5 5 5 5 5 5 5 5 f . . 
+. . f 5 5 4 4 4 5 5 5 5 f . . . 
+. . . f 5 5 5 5 5 5 5 f . . . . 
+. . . . f f f f f f f . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,img`
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f . . . . . . 
+. . . . f 5 5 5 5 5 f . . . . . 
+. . . f 5 4 4 4 4 5 5 f . . . . 
+. . f 5 4 5 5 5 5 5 5 5 f . . . 
+. . f 5 4 5 5 5 5 5 5 5 f . . . 
+. . f 5 4 5 5 5 5 5 5 5 f . . . 
+. . f 5 4 5 5 5 5 5 5 5 f . . . 
+. . f 5 4 5 5 5 5 5 5 5 f . . . 
+. . f 5 4 5 5 5 5 5 5 5 f . . . 
+. . f 5 5 5 5 5 5 5 5 5 f . . . 
+. . . f 5 5 4 4 5 5 5 f . . . . 
+. . . . f 5 5 5 5 5 f . . . . . 
+. . . . . f f f f f . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,img`
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . f 5 4 4 5 5 f . . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 5 5 5 5 5 5 f . . . . 
+. . . . f 5 5 4 5 5 f . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . f 5 4 5 f . . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 5 5 5 5 f . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 4 f . . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 4 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 4 f . . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . f 5 4 5 f . . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 4 5 5 5 f . . . . . 
+. . . . f 5 5 5 5 5 f . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . . f 5 f . . . . . . . 
+. . . . . . . f f . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,img`
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . f 5 4 4 5 5 f . . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 4 5 5 5 5 5 f . . . . 
+. . . f 5 5 5 5 5 5 5 f . . . . 
+. . . . f 5 5 4 5 5 f . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`],
+    100,
+    true
+    )
+})
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Coin, function (sprite, otherSprite) {
     info.changeScoreBy(1)
     otherSprite.destroy()
@@ -241,6 +440,25 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Coin, function (sprite, otherSpr
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile2, function (sprite, location) {
     current_level += 1
     startLevel()
+})
+sprites.onCreated(SpriteKind.Fireball, function (sprite) {
+    sprite.setImage(img`
+. . . . . . . . 
+. . . 4 5 . . . 
+. . 5 2 4 5 . . 
+. 5 4 1 2 2 4 . 
+. 4 2 2 8 4 5 . 
+. . 5 4 2 5 . . 
+. . . 5 4 . . . 
+. . . . . . . . 
+`)
+    sprite.startEffect(effects.fire)
+    animation.runMovementAnimation(
+    sprite,
+    "c 0 -100 0 100 0 0",
+    2000,
+    true
+    )
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Flower, function (sprite, otherSprite) {
     otherSprite.destroy()
@@ -430,250 +648,17 @@ function startLevel () {
     }
     scene.cameraFollowSprite(Hops_and_Paw)
     info.setLife(5)
-    for (let value of sprites.allOfKind(SpriteKind.Enemy)) {
-        value.destroy()
-    }
-    for (let value of sprites.allOfKind(SpriteKind.Coin)) {
-        value.destroy()
-    }
-    for (let value of sprites.allOfKind(SpriteKind.Flower)) {
-        value.destroy()
-    }
-    for (let value of tiles.getTilesByType(myTiles.tile4)) {
-        flower = sprites.create(img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . f f f f f f f . . . . 
-. . . . f 5 5 5 5 5 5 5 f . . . 
-. . . f 5 5 4 4 4 4 5 5 5 f . . 
-. . f 5 5 5 5 5 5 5 5 5 5 5 f . 
-. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-. . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-. . . f 5 5 4 4 5 5 5 5 5 f . . 
-. . . . f 5 5 5 5 5 5 5 f . . . 
-. . . . . f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`, SpriteKind.Coin)
-        animation.runImageAnimation(
-        flower,
-        [img`
-. . . . . . . . . . . . . . . . 
-. . . . f f f f f f f . . . . . 
-. . . f 5 5 5 5 5 5 5 f . . . . 
-. . f 5 4 4 4 4 4 5 5 5 f . . . 
-. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
-. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
-. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
-. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
-. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
-. f 5 4 5 5 5 5 5 5 5 5 5 f . . 
-. f 5 5 5 5 5 5 5 5 5 5 5 f . . 
-. . f 5 5 4 4 4 5 5 5 5 f . . . 
-. . . f 5 5 5 5 5 5 5 f . . . . 
-. . . . f f f f f f f . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`,img`
-. . . . . . . . . . . . . . . . 
-. . . . . f f f f f . . . . . . 
-. . . . f 5 5 5 5 5 f . . . . . 
-. . . f 5 4 4 4 4 5 5 f . . . . 
-. . f 5 4 5 5 5 5 5 5 5 f . . . 
-. . f 5 4 5 5 5 5 5 5 5 f . . . 
-. . f 5 4 5 5 5 5 5 5 5 f . . . 
-. . f 5 4 5 5 5 5 5 5 5 f . . . 
-. . f 5 4 5 5 5 5 5 5 5 f . . . 
-. . f 5 4 5 5 5 5 5 5 5 f . . . 
-. . f 5 5 5 5 5 5 5 5 5 f . . . 
-. . . f 5 5 4 4 5 5 5 f . . . . 
-. . . . f 5 5 5 5 5 f . . . . . 
-. . . . . f f f f f . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`,img`
-. . . . . . . . . . . . . . . . 
-. . . . . . f f f . . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . f 5 4 4 5 5 f . . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 5 5 5 5 5 5 f . . . . 
-. . . . f 5 5 4 5 5 f . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . . f f f . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`,img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . f 5 4 5 f . . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 5 5 5 5 f . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`,img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 4 f . . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`,img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 4 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`,img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 4 f . . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`,img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . f . . . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . f 5 4 5 f . . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 4 5 5 5 f . . . . . 
-. . . . f 5 5 5 5 5 f . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . . f 5 f . . . . . . . 
-. . . . . . . f f . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`,img`
-. . . . . . . . . . . . . . . . 
-. . . . . . f f f . . . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . f 5 4 4 5 5 f . . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 4 5 5 5 5 5 f . . . . 
-. . . f 5 5 5 5 5 5 5 f . . . . 
-. . . . f 5 5 4 5 5 f . . . . . 
-. . . . . f 5 5 5 f . . . . . . 
-. . . . . . f f f . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`],
-        100,
-        true
-        )
-        tiles.placeOnTile(flower, value)
-        tiles.setTileAt(value, myTiles.tile0)
-    }
-    for (let value of tiles.getTilesByType(myTiles.tile5)) {
-        flower = sprites.create(img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . 3 a . . a 3 . . . . . . 
-. . . . a 3 2 2 3 a . . . . . . 
-. . 7 7 . a 3 3 a . . . . . . . 
-. . 7 7 7 . c c . 7 7 . . . . . 
-. . . 8 7 7 7 . 7 7 7 . . . . . 
-. . . 8 8 7 7 7 7 8 . . . . . . 
-. . . . . 8 7 7 8 . . . . . . . 
-. . . . . . 7 8 . . . . . . . . 
-`, SpriteKind.Flower)
-        tiles.placeOnTile(flower, value)
-        tiles.setTileAt(value, myTiles.tile0)
-    }
-    for (let value of tiles.getTilesByType(myTiles.tile11)) {
-        fireball = sprites.create(img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . 5 . . . . . . . . 
-. . . . 5 5 2 5 5 4 5 5 . . . . 
-. . . . . 4 4 4 4 2 4 . . . . . 
-. . . 5 4 4 2 2 2 2 4 5 . . . . 
-. . . 5 4 . 2 8 2 8 4 2 . . . . 
-. . . 5 5 . 2 8 8 2 4 5 . . . . 
-. . . 2 5 2 2 8 2 4 4 5 . . . . 
-. . . . 5 4 2 2 2 4 5 . . . . . 
-. . . . . . 4 . 4 4 5 . . . . . 
-. . . 5 . 5 5 5 4 5 5 . . . . . 
-. . . . . . . 2 5 5 . . . . . . 
-. . . . . . . . . . . . . 5 . . 
-. . . . . . . . . . . . . . . . 
-`, SpriteKind.Fireball)
-        tiles.placeOnTile(fireball, value)
-        tiles.setTileAt(value, myTiles.tile0)
-        animation.runMovementAnimation(
-        fireball,
-        "c 0 -100 0 100 0 0",
-        2000,
-        true
-        )
-        fireball.startEffect(effects.fire)
-    }
+    tilemap.destorySpritesOfKind(SpriteKind.Enemy)
+    tilemap.destorySpritesOfKind(SpriteKind.Coin)
+    tilemap.createSpritesOnTiles(myTiles.tile4, SpriteKind.Coin)
+    tilemap.replaceAllTiles(myTiles.tile4, myTiles.tile0)
+    tilemap.destorySpritesOfKind(SpriteKind.Flower)
+    tilemap.createSpritesOnTiles(myTiles.tile5, SpriteKind.Flower)
+    tilemap.replaceAllTiles(myTiles.tile5, myTiles.tile0)
+    tilemap.destorySpritesOfKind(SpriteKind.Fireball)
+    tilemap.createSpritesOnTiles(myTiles.tile11, SpriteKind.Fireball)
+    tilemap.replaceAllTiles(myTiles.tile11, myTiles.tile0)
 }
-let fireball: Sprite = null
-let flower: Sprite = null
 let bee: Sprite = null
 let Hops_and_Paw: Sprite = null
 let current_level = 0
