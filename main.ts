@@ -520,7 +520,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Flower, function (sprite, otherS
     100,
     true
     )
-    bee.setPosition(Hops_and_Paw.x + 80, Hops_and_Paw.y - 80)
+    bee.setPosition(scene.cameraLeft() + scene.screenWidth(), scene.cameraTop())
     bee.follow(Hops_and_Paw, 50)
 })
 function startLevel () {
@@ -642,12 +642,10 @@ function startLevel () {
     } else {
         game.over(true)
     }
-    tiles.placeOnRandomTile(Hops_and_Paw, myTiles.tile6)
-    for (let value of tiles.getTilesByType(myTiles.tile6)) {
-        tiles.setTileAt(value, myTiles.tile0)
-    }
-    scene.cameraFollowSprite(Hops_and_Paw)
     info.setLife(5)
+    tiles.placeOnRandomTile(Hops_and_Paw, myTiles.tile6)
+    tilemap.replaceAllTiles(myTiles.tile6, myTiles.tile0)
+    scene.cameraFollowSprite(Hops_and_Paw)
     tilemap.destorySpritesOfKind(SpriteKind.Enemy)
     tilemap.destorySpritesOfKind(SpriteKind.Coin)
     tilemap.createSpritesOnTiles(myTiles.tile4, SpriteKind.Coin)
@@ -785,7 +783,7 @@ scene.setBackgroundImage(img`
 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
 `)
-current_level = 2
+current_level = 0
 Hops_and_Paw = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
